@@ -83,7 +83,7 @@ btn.forEach(e => {
 
 
 let press = document.createElement('div')
-press.className = 'absolute top-52 right-52 '
+press.className = 'absolute top-5'
 press.id = 'press'
 document.addEventListener('keydown', (e) => {
     console.log(e.key);
